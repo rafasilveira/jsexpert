@@ -4,7 +4,7 @@ const DEFAULT_USER = {
   username: "RafaSilveira",
   password: "123",
 };
-
+// todo: continuar aula em 15:40
 // curl localhost:3000/login -X POST --data '{"username": "RafaSilveira","password":"123"}'
 // curl localhost:3000/login -X POST --data '{"username": "someoneElse","password":"123"}'
 const routes = {
@@ -17,7 +17,7 @@ const routes = {
       response.writeHead(401);
       return response.end("Login failed!");
     }
-    return response.end("logged in");
+    return response.end("Logged in!");
   },
   "/contact:get": (request, response) => {
     response.write("contact us page");
@@ -35,11 +35,11 @@ function handler(request, response) {
 
   const chosen = routes[routeKey] || routes.default;
 
-  console.log({ routeKey });
-
   return chosen(request, response);
 }
 
 const app = http
   .createServer(handler)
   .listen(3000, () => console.log("running at 3000"));
+
+module.exports = app;
