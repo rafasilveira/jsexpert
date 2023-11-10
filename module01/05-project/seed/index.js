@@ -9,6 +9,8 @@ const { writeFile } = require("fs/promises");
 const seederBaseFolder = join(__dirname, "../", "database");
 const ITEMS_AMOUNT = 2;
 
+faker.seed(42);
+
 const carCategory = new CarCategory({
   id: faker.string.uuid(),
   name: faker.vehicle.type(),
