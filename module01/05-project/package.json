@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx mocha test/unitTests/*.test.js",
+    "test:dev": "npx mocha -w test/unitTests/*.test.js",
+    "test:cov": "npx nyc npx mocha test/unitTests/*.test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@faker-js/faker": "^8.2.0"
+    "@faker-js/faker": "^8.2.0",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
   }
 }
