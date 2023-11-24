@@ -1,1 +1,23 @@
-[{"id":"98060489-6204-4f53-971c-9368f970d9a2","name":"Mustang","releaseYear":2023,"available":true,"gasAvailable":true},{"id":"f6ee9be5-1938-40f5-bd6b-48d95f498424","name":"Volt","releaseYear":2023,"available":true,"gasAvailable":true},{"id":"a4e8761f-bdcb-483c-9470-8b6107130ea7","name":"Model 3","releaseYear":2023,"available":true,"gasAvailable":true}]
+[
+  {
+    "id": "98060489-6204-4f53-971c-9368f970d9a2",
+    "name": "Mustang",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "f6ee9be5-1938-40f5-bd6b-48d95f498424",
+    "name": "Volt",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "a4e8761f-bdcb-483c-9470-8b6107130ea7",
+    "name": "Model 3",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  }
+]
