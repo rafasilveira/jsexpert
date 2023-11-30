@@ -4,7 +4,6 @@ const DEFAULT_USER = {
   username: "RafaSilveira",
   password: "123",
 };
-// todo: continuar aula em 15:40
 // curl localhost:3000/login -X POST --data '{"username": "RafaSilveira","password":"123"}'
 // curl localhost:3000/login -X POST --data '{"username": "someoneElse","password":"123"}'
 const routes = {

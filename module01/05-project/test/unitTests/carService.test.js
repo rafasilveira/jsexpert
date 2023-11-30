@@ -48,6 +48,5 @@ describe("CarService Test Suite", () => {
 
     expect(result).to.be.equal(expect);
 
-    //TODO continue on 18:00
   });
 });
